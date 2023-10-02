@@ -26,7 +26,7 @@ const Footer = () => {
                 { path: "#", icon: BiLogoLinkedin },
                 { path: "#", icon: BiLogoYoutube },
               ].map((link, index) => (
-                <Link href={link.path}><link.icon className="text-white mx-4" size={35} /></Link>
+                <Link href={link.path} key={index}><link.icon className="text-white mx-4" size={35} /></Link>
               ))
             }
           </div>
