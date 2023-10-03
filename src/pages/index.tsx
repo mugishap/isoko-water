@@ -46,7 +46,7 @@ const index = () => {
           <div className='flex flex-col w-1/2 text-xl'>
             <span className='font-semibold text-3xl'>Our Solution</span>
             <span className='my-2'>
-              To tackle this problem, WaterScope® has developed an innovative water testing system, enabling
+              To tackle this problem, IsokoWater® has developed an innovative water testing system, enabling
               inclusive access to smart, easy-to-use, and reliable testing for bacterial presence in drinking
               water.
             </span>
@@ -107,7 +107,7 @@ const index = () => {
               <span className="text-xl font-light">
                 Sustainable Development Goal (SDG) number 6 is to &apos;ensure availability and sustainable
                 management of water and sanitation for all.&apos;
-                WaterScope® wants to play our part in this global initiative.
+                IsokoWater® wants to play our part in this global initiative.
               </span>
             </div>
           </div>
@@ -117,7 +117,7 @@ const index = () => {
 
         <div className='flex flex-col items-center p-24'>
           <span className='text-2xl font-bold my-6'>Our Partners</span>
-          <span className='text-xl font-light'>WaterScope is proud to work with NGOs, governments, and
+          <span className='text-xl font-light'>IsokoWater is proud to work with NGOs, governments, and
             corporate partners to share and spread its impact around the world.
           </span>
           <div className='w-full grid grid-cols-4'>

@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
         <div className="my-2 flex items-center">
           <input type="checkbox" id='consent' className='w-6 h-6 mr-3' />
-          <label htmlFor="consent">I consent to receiving occasional emails from WaterScope.</label>
+          <label htmlFor="consent">I consent to receiving occasional emails from IsokoWater.</label>
         </div>
         <button className='bg-white text-primary px-8 py-2 rounded my-4'>Subscribe</button>
       </div>

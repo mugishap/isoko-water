@@ -27,7 +27,7 @@ export const navbarLinks: INavbarLink[] = [
 export const solutions: ISolution[] = [
     {
         image: Funnel,
-        description: "WaterScope® is refining the membrane filtration method. Our motorised pump uses vacuum filtration to draw water through a metal cartridge, collecting a sample on a padded membrane where the bacteria will grow"
+        description: "IsokoWater® is refining the membrane filtration method. Our motorised pump uses vacuum filtration to draw water through a metal cartridge, collecting a sample on a padded membrane where the bacteria will grow"
     },
     {
         image: MicroBiology,
@@ -35,7 +35,7 @@ export const solutions: ISolution[] = [
     },
     {
         image: DevTools,
-        description: "An embedded IoT module in each testing system uploads the sample data to our WaterScope® app and dashboard, allowing for digital dissemination and analysis of water quality anywhere in the world."
+        description: "An embedded IoT module in each testing system uploads the sample data to our IsokoWater® app and dashboard, allowing for digital dissemination and analysis of water quality anywhere in the world."
     },
 ]
 
