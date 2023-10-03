@@ -9,3 +9,8 @@ export type ISolution = {
     image: StaticImageData,
     description: string
 }
+
+export type IPartner = {
+    image: StaticImageData,
+    name: string
+}
