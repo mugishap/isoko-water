@@ -20,13 +20,13 @@ const Footer = () => {
           <div className='flex items-center'>
             {
               [
-                { path: "#", icon: BiLogoTwitter },
-                { path: "#", icon: BiLogoFacebook },
-                { path: "#", icon: BiLogoInstagram },
-                { path: "#", icon: BiLogoLinkedin },
-                { path: "#", icon: BiLogoYoutube },
+                { path: "https://twitter.com/isoko_water", icon: BiLogoTwitter },
+                { path: "https://facebook.com/isoko_water", icon: BiLogoFacebook },
+                { path: "https://www.instagram.com/isoko_water/", icon: BiLogoInstagram },
+                { path: "https://linkedin.com/in/isoko_water", icon: BiLogoLinkedin },
+                { path: "https://www.youtube.com/@isokowater", icon: BiLogoYoutube },
               ].map((link, index) => (
-                <Link href={link.path} key={index}><link.icon className="text-white mx-4" size={35} /></Link>
+                <a href={link.path} key={index}><link.icon className="text-white mx-4" size={35} /></a>
               ))
             }
           </div>

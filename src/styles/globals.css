@@ -8,7 +8,7 @@
       rgba(255, 255, 255, 0.08) 0%,
       rgba(19, 39, 69, 0.89) 100%
     ),
-    url("https://i0.wp.com/www.IsokoWater.org/wp-content/uploads/indian-kids-drinking-water.jpg");
+    url("https://media.istockphoto.com/id/517445609/photo/hands-of-poor-child-scoop-drinking-water-africa.webp?s=2048x2048&w=is&k=20&c=InUWYnQyEWkag-xVSuGyt6GmaGAKDDOyLehj7he40RY=");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -21,16 +21,14 @@
       rgba(0, 0, 0, 0.08) 0%,
       rgba(19, 39, 69, 0.89) 100%
     ),
-    url("https://images.unsplash.com/photo-1588497883177-f82b883ad0af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNld2luZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1200&q=60");
+    url("https://media.istockphoto.com/id/119401087/photo/womans-hands-with-water-splash.jpg?s=2048x2048&w=is&k=20&c=Secgwh6fr6CUkaO66CDPr0hEFmIYfFYm4gdHqjmjnw8=");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
 }
 .bg-design {
-  background: url("https://images.unsplash.com/photo-1588497883177-f82b883ad0af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNld2luZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1200&q=60");
-  background-size: cover;
+  background: url("./../assets/images/water.jpeg");
+  background-size: contain;
   background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
 }
