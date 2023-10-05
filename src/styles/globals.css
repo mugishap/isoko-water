@@ -8,11 +8,11 @@
       rgba(255, 255, 255, 0.08) 0%,
       rgba(19, 39, 69, 0.89) 100%
     ),
-    url("https://media.istockphoto.com/id/517445609/photo/hands-of-poor-child-scoop-drinking-water-africa.webp?s=2048x2048&w=is&k=20&c=InUWYnQyEWkag-xVSuGyt6GmaGAKDDOyLehj7he40RY=");
-  background-size: cover;
+    url("./../assets/images/hero2.jpeg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bg-video {
@@ -21,14 +21,14 @@
       rgba(0, 0, 0, 0.08) 0%,
       rgba(19, 39, 69, 0.89) 100%
     ),
-    url("https://media.istockphoto.com/id/119401087/photo/womans-hands-with-water-splash.jpg?s=2048x2048&w=is&k=20&c=Secgwh6fr6CUkaO66CDPr0hEFmIYfFYm4gdHqjmjnw8=");
+    url("./../assets/images/hero.jpeg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
 }
 .bg-design {
-  background: url("./../assets/images/water.jpeg");
+  background: url("./../assets/images/hero3.jpeg");
   background-size: contain;
   background-attachment: fixed;
 }
