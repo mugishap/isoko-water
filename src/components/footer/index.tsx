@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
         <div className='flex flex-col items-center'>
           <span className='text-lg mt-8'>Contact</span>
-          <span className='my-3'>info@isokowater.org</span>
+          <span className='my-3'>isokowater@gmail.com</span>
           <div className='flex items-center'>
             {
               [

@@ -1,4 +1,4 @@
-import { Arm, CGE, Chromagar, DevTools, Europe, Funnel, Hif, LifeScience, MicroBiology, Oxfam, Royal, STICLab, Ukri, UoC, iTeam } from "@/assets";
+import { DevTools, Funnel, MicroBiology } from "@/assets";
 import { INavbarLink, IPartner, ISolution } from "@/types";
 
 export const navbarLinks: INavbarLink[] = [
@@ -40,52 +40,5 @@ export const solutions: ISolution[] = [
 ]
 
 export const partners: IPartner[] = [
-    {
-        image: Hif,
-        name: "Humanitarian Innovation Fund"
-    },
-    {
-        image: UoC,
-        name: "University of Cambridge"
-    },
-    {
-        image: iTeam,
-        name: "I Teams"
-    },
-    {
-        image: Oxfam,
-        name: "Oxfam"
-    },
-    {
-        image: Ukri,
-        name: "Ukri"
-    },
-    {
-        name: "ARM",
-        image: Arm
-    },
-    {
-        name: "Royal ACademy of Engineering",
-        image: Royal
-    },
-    {
-        image: CGE,
-        name: "Center for Global Equality"
-    },
-    {
-        image: Europe,
-        name: "Europe flag"
-    },
-    {
-        image: STICLab,
-        name: "STIC Lab"
-    },
-    {
-        image: Chromagar,
-        name: "Chromagar"
-    },
-    {
-        image: LifeScience,
-        name: "Life Science Factory"
-    }
+   
 ]

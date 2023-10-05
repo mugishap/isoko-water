@@ -8,7 +8,7 @@
       rgba(255, 255, 255, 0.08) 0%,
       rgba(19, 39, 69, 0.89) 100%
     ),
-    url("./../assets/images/hero2.jpeg");
+    url("./../assets/images/hero.jpeg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -21,7 +21,7 @@
       rgba(0, 0, 0, 0.08) 0%,
       rgba(19, 39, 69, 0.89) 100%
     ),
-    url("./../assets/images/hero.jpeg");
+    url("./../assets/images/hero2.jpeg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;

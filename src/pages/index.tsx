@@ -26,7 +26,7 @@ const index = () => {
 
         <div className='w-full flex text-white items-center bg-video p-24'>
           <div className='w-[55%] flex items-center justify-center'>
-            <iframe src="https://youtube.com/embed/uDomwUPPzkw" className='w-7/12 h-72' />
+            <iframe src="https://www.youtube.com/watch?v=TgXKf5qPexY" className='w-7/12 h-72' />
           </div>
           <div className='w-[45%] flex flex-col'>
             <span className='text-2xl font-bold my-4'>The Problem</span>
