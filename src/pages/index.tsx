@@ -1,4 +1,4 @@
-import { Case, SDGs, Web6 } from '@/assets'
+import { Case, Exist, SDGs, Web6 } from '@/assets'
 import Footer from '@/components/footer'
 import Navbar from '@/components/navbar'
 import { partners, solutions } from '@/utils/data'
@@ -26,7 +26,7 @@ const index = () => {
 
         <div className='w-full flex text-white items-center bg-video p-24'>
           <div className='w-[55%] flex items-center justify-center'>
-            <iframe src="https://www.youtube.com/watch?v=TgXKf5qPexY" className='w-7/12 h-72' />
+            <Image src={Exist} alt='' className='w-7/12 h-72' />
           </div>
           <div className='w-[45%] flex flex-col'>
             <span className='text-2xl font-bold my-4'>The Problem</span>
@@ -46,19 +46,13 @@ const index = () => {
           <div className='flex flex-col w-1/2 text-xl'>
             <span className='font-semibold text-3xl'>Our Solution</span>
             <span className='my-2'>
-              To tackle this problem, IsokoWater® has developed an innovative water testing system, enabling
-              inclusive access to smart, easy-to-use, and reliable testing for bacterial presence in drinking
-              water.
-            </span>
-            <span className='my-2'>
-              Using robust materials and machine learning technology which automatically counts bacterial
-              colonies such as E.coli, the testing system can be used anywhere—from the lab to the field—and can
-              return results in less than 18 hours.
+              We provide a water testing system that's smart, easy-to-use, and reliable.
+              We aim to democratise water testing and create sustainable impact in communities worldwide.
             </span>
             <button className='my-2 bg-primary w-fit px-4 py-2 text-white'>Learn More</button>
           </div>
           <div className='w-1/2 flex items-center justify-center'>
-            <Image alt="case" src={Case} className='w-96' />
+            <Image alt="case" width={300} height={300} src={"https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&q=60&w=1200&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2F0ZXIlMjBib3R0bGV8ZW58MHx8MHx8fDA%3D"} className='w-96 object-cover' />
           </div>
         </div>
 
