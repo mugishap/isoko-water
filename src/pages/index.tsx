@@ -46,7 +46,7 @@ const index = () => {
           <div className='flex flex-col w-1/2 text-xl'>
             <span className='font-semibold text-3xl'>Our Solution</span>
             <span className='my-2'>
-              We provide a water testing system that's smart, easy-to-use, and reliable.
+              We provide a water testing system that&apos;s smart, easy-to-use, and reliable.
               We aim to democratise water testing and create sustainable impact in communities worldwide.
             </span>
             <button className='my-2 bg-primary w-fit px-4 py-2 text-white'>Learn More</button>
