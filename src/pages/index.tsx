@@ -47,7 +47,7 @@ const index = () => {
             <span className='font-semibold text-3xl'>Our Solution</span>
             <span className='my-2'>
               We provide a water testing system that&apos;s smart, easy-to-use, and reliable.
-              We aim to democratise water testing and create sustainable impact in communities worldwide.
+              We aim to democratise water testing and create sustainable impact in communities locally.
             </span>
             <button className='my-2 bg-primary w-fit px-4 py-2 text-white'>Learn More</button>
           </div>

@@ -1,7 +1,8 @@
 import { Logo } from '@/assets'
 import Image from 'next/image'
 import Link from 'next/link'
-import { BiLogoFacebook, BiLogoInstagram, BiLogoLinkedin, BiLogoTwitter, BiLogoYoutube } from 'react-icons/bi'
+import { BiLogoFacebook, BiLogoInstagram, BiLogoLinkedin,  BiLogoYoutube } from 'react-icons/bi'
+import{RiTwitterXLine}from 'react-icons/ri'
 
 const Footer = () => {
   return (
@@ -20,7 +21,7 @@ const Footer = () => {
           <div className='flex items-center'>
             {
               [
-                { path: "https://twitter.com/isoko_water", icon: BiLogoTwitter },
+                { path: "https://x.com/isoko_water", icon: RiTwitterXLine },
                 { path: "https://facebook.com/isoko_water", icon: BiLogoFacebook },
                 { path: "https://www.instagram.com/isoko_water/", icon: BiLogoInstagram },
                 { path: "https://linkedin.com/in/isoko_water", icon: BiLogoLinkedin },
