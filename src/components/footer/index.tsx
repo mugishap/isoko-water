@@ -6,13 +6,13 @@ import{RiTwitterXLine}from 'react-icons/ri'
 
 const Footer = () => {
   return (
-    <div className='w-full bg-primary flex py-10 px-32 justify-between text-white text-lg'>
+    <div className='w-full bg-primary grid grid-cols-1 md:grid-cols-2 2lg:flex py-10 px-4 xl:px-32 justify-between text-white text-lg'>
       <Image src={Logo} alt='Logo' className='w-20 h-fit' />
-      <div className='flex flex-col items-center'>
+      <div className=' md:my-1 my-12 w-full 2lg:w-5/12 flex flex-col items-center'>
         <span className='font-bold text-xl mb-8'>Site Pages</span>
         <div className='flex items-center'>
           {["Home", "About", "Cookie Policy", "Contact"].map((link, index) => (
-            <Link href={"#"} className='mx-4 border-b-2 border-b-white py-1' key={index}>{link}</Link>
+            <Link href={"#"} className='mx-4 whitespace-nowrap border-b-2 border-b-white py-1' key={index}>{link}</Link>
           ))}
         </div>
         <div className='flex flex-col items-center'>
@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className='flex flex-col items-center'>
+      <div className='md:my-1 my-12 w-full 2lg:w-5/12 flex flex-col items-center'>
         <span className='text-xl mb-8 font-semibold'>Join Our Mailing List</span>
         <div className='flex items-center my-2 w-full justify-between'>
           <label htmlFor='email'>Email:</label> <input type="text" id="email" className="outline-none p-3 py-2 w-64 rounded ml-3" />
